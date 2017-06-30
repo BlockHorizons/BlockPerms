@@ -56,6 +56,6 @@ class YAMLProvider extends BaseProvider {
     }
     
     public function getName(): string {
-        return "yaml";
-    }
+		return "yaml";
+	}
 }

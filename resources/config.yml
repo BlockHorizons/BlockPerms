@@ -1,0 +1,6 @@
+# The language used by the plugin
+language: en
+
+# The data provider used by the plugin
+# Available: json, yaml
+provider: yaml

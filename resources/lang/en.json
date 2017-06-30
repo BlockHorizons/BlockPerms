@@ -1,0 +1,37 @@
+{
+    "console": {
+        "provider": {
+            "not-found": "Unknown data provider specific, defaulting to JSON.",
+            "set": "Data provider has been set to %s."
+        },
+        "permission": {
+            "not-found": "Permission '%s' in group '%s' not found.",
+            "count-not-found": "Additionally, §e%s §6other permissions were not found."
+        }
+    },
+    "commands": {
+        "not-found": "§cStrange argument \"§3%s§c\". §eDid you type it wrong?",
+        "no-permission": "§6You don't have permission for that.",
+        "group": {
+            "description": "Group commands help.",
+            "header": "Group Commands",
+            "add": {
+                "description": "Create a new group.",
+                "success": "§eYou §6created a new group \"§e%s§6\".",
+                "noargs": "§cIncorrect usage. §6You must specify a command name.\n  §b%s"
+            }
+        },
+        "groups": {
+            "description": "List all registered groups.",
+            "header": "Groups",
+            "success": " §d%s",
+            "none": "§6There are no registered groups."
+        },
+        "version": {
+            "description": "Display plugin version.",
+            "header": "§2Plugin Information",
+            "name": "§dName: §b%s",
+            "version": "§dVersion: §b%s"
+        }
+    }
+}

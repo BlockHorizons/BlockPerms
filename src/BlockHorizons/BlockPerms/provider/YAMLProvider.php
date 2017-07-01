@@ -51,7 +51,7 @@ class YAMLProvider extends BaseProvider {
     }
     
     public function registerPlayer(Player $player) {
-        $data = yaml_parse_file($this->getLoader()->getDataFolder() . $player->getUniqueId() . ".yaml");
+        $data = yaml_parse_file($this->getLoader()->getDataFolder() . "players/" . $player->getUniqueId() . ".yaml");
         parent::registerPlayerImpl(new BPUser($data), $data);
     }
     
